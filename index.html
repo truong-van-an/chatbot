@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./global/css/bootstrap-extend.min3f0d.css">
+    <link rel="stylesheet" href="./global/css/bootstrap.min3f0d.css">
+    <link rel="stylesheet" href="./global/css/waves.min3f0d.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="chatbot">
+        <div class="panel boxchatbot" style="width: 55%;">
+                <div class="panel-heading">
+                    <div class="row">
+                        <div class="col-12 col-md-12 col-lg-12" style="display: flex; align-items: center;justify-content: space-between;">
+                            <div class="heading-left col-10 col-md-10 col-ld-10">
+                                <div class="icon-robot">
+                                    <i class="fa-solid fa-robot"></i>
+                                </div>
+                                <span class="font-size-20 font-weight-600">Chat Bot</span>
+                            </div>
+                            <div class="heading-right col-2 col-md-2 col-lg-2 font-size-24">
+                                <i class="fa-solid fa-xmark"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel-body" style="height: 400px; padding: 10px; position: relative;">
+                    <div class="col-md-12" style="padding: 0px; height: 100%;">
+                        <div class="chatbox">
+                            <div class="chat incoming" style="display: flex;">
+                                <div class="icon-robot">
+                                    <i class="fa-solid fa-robot"></i>
+                                </div>
+                                <p class="text">Hello</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel-footer">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-12 col-12" style="display: flex; align-items: center;">
+                            <div class="message">
+                                <input type="text" placeholder="Nhập tin nhắn...">
+                            </div>
+                            <div class="send" style="display: flex; align-items: center;">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="panel home" style="width: 55%; position: absolute;">
+            <div class="panel-body">
+                <div class="panel-title text-center" data-aos="fade-down" data-aos-duration="1500" data-aos-easing="ease-in-out">
+                    <span class="font-size-20" data-aos="fade-up">Hello</span>
+                    <h3>I'm ChatBot</h3>
+                </div>
+                <div class="icon-chatbot" data-aos="flip-up" data-aos-delay="1500" data-aos-duration="1000">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2040/2040946.png" alt="">
+                </div>
+                <div class="textContent" style="margin-top: 70px;">
+                    <h3 class="text-center" data-aos="flip-left" data-aos-delay="2000" data-aos-duration="1000">How can I help you ?</h3>
+                    <button type="button" class="btn btn-light" style="width: 100%;outline: none;" data-aos="zoom-in" data-aos-delay="2500" data-aos-duration="1000">Start</button>
+                </div>
+                <div class="count" data-aos="fade-up" data-aos-delay="3000" data-aos-duration="1000">
+                    <span>Số lượt truy cập website:</span>
+                    <div class="countNumber">
+                        <span>
+                            <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+                            <div class="elfsight-app-6b1a6cad-cfaf-436b-93ba-3a4bca4ea5b3"></div>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+<script src="./global/js/waves.min.js"></script>
+<script src="./app.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</html>
